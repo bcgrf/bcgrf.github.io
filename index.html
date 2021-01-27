@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broadcast Grafika</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    <script src="https://kit.fontawesome.com/cd541d2259.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black">
+            <section class="w-full px-3 mb-12 antialiased select-none bg-black" id="">
+    <div class="mx-auto max-w-7xl">
+        <nav class="relative z-50 h-24" x-data="{ showMenu: false }">
+            <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto font-medium border-b border-gray-200 lg:justify-center sm:px-4 md:px-2" id="">
+                <a href="index.html" class="w-48 py-4 pr-4">
+                    <img src="img/logo.png" alt="" srcset="">
+                </a>
+                <div class="top-0 left-0 items-start hidden w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:w-3/4 md:absolute lg:text-base md:h-auto md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex fixed': showMenu, 'hidden': !showMenu }">
+                    <div class="flex-col w-full h-auto overflow-hidden bg-white rounded-lg select-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
+                        <a href="index.html" class="inline-flex items-center block w-auto h-16 px-6 text-xl font-black leading-none text-gray-900 select-none md:hidden"><img src="img/logo.png" class="w-28" srcset=""></a>
+                        <div class="flex flex-col items-start ml-auto justify-end w-full text-center md:w-2/3 md:mt-0 md:flex-row md:items-center" id="">
+                            <a href="index.html" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center text-yellow-300">Beranda</a>
+                            <a href="bdpv.html" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center hover:text-yellow-300" id="">BDPV</a>
+                        </div>
+                    </div>
+                </div>
+                <div @click="showMenu = !showMenu" class="absolute right-0 flex flex-col items-center items-end justify-center w-10 h-10 rounded-full cursor-pointer md:hidden hover:bg-gray-100">
+                    <svg class="w-6 h-6 text-gray-700" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg class="w-6 h-6 text-gray-700" x-show="showMenu" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+        <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center" id="">
+
+            <h1 class="text-5xl font-extrabold tracking-tight text-left text-gray-900 leading-tightest md:leading-10 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
+                <span class="text-4xl inline mb-3 md:block text-gray-300" id="">Ciptakan Hal Hebat Berama</span>
+                <span class="relative mt-2 text-transparent md:inline-block bg-clip-text bg-gradient-to-br from-yellow-300">Broadcast Grafika</span>
+            </h1>
+            <div class="mx-auto mt-5 text-gray-500 md:mt-12 md:max-w-lg md:text-center lg:text-lg">
+                Ciptakan hal-hal hebat dan pastinya luar biasa bersama kami, Broadcast Grafika!
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="w-full pb-7 md:pb-24 bg-black">
+    <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+
+        <!-- Image -->
+        <div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
+            <img src="https://cdn.devdojo.com/images/december2020/productivity.png" class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
+        </div>
+
+        <!-- Content -->
+        <div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
+            <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl text-white" id="">
+                Tingkatkan Kemampuan
+            </h2>
+            <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+                Broadcast Grafika akan selalu berusaha untuk membangun suasana untuk meningkatkan kemampuanmu.
+            </p>
+            <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span>
+                     Maksimalkan prduktivitas mu
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> 
+                    Dapatkan ilmu yang berguna
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> 
+                    Pelajari yang kamu mau
+                </li>
+            </ul>
+        </div>
+        <!-- End  Content -->
+    </div>
+    <div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
+
+        <!-- Content -->
+        <div class="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
+            <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl text-white">
+                Penyelesaian Masalah
+            </h2>
+            <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">
+                Belajar berorganisasi untuk menambah relasi serta untuk meningkatkan skil penyelesaian masalah.
+            </p>
+            <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> 
+                    Berdiskusi untuk menemukan solusi
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> 
+                    Membangun skil penyelesaian masalah
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> 
+                    Mendapat banyak relasi
+                </li>
+            </ul>
+        </div>
+        <!-- End  Content -->
+
+        <!-- Image -->
+        <div class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
+            <img src="https://cdn.devdojo.com/images/december2020/settings.png" class="pl-4 sm:pr-10 xl:pl-10 lg:pr-32">
+        </div>
+    </div>
+</section>
+            <section class="relative py-16 min-w-screen animation-fade animation-delay bg-black">
+    <div class="container px-0 px-8 mx-auto sm:px-12 xl:px-5" id="">
+        <p class="text-xs font-bold text-left uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold text-yellow-300" id="">
+            Punya pertanyaan? Kami punya jawabannya</p>
+        <h3 class="mt-1 text-2xl font-bold text-left sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center sm:mx-0 text-gray-300">
+            Frequently Asked Questions</h3>
+        <div class="w-full px-6 py-6 mx-auto mt-10 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 bg-black border border-gray-200" id="">
+            <h3 class="text-lg font-bold sm:text-xl md:text-2xl text-yellow-300" id="">Apa aja sih kegiatannya?</h3>
+            <p class="mt-2 text-base sm:text-lg md:text-normal text-gray-300" id="">
+                Selain berkegiatan didunia perfilman dan fotografi, BCGRF juga ada musik, anouncer, dan poster.
+            </p>
+        </div>
+        <div class="w-full px-6 py-6 mx-auto mt-10 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 bg-black" id="">
+            <h3 class="text-lg font-bold sm:text-xl md:text-2xl text-yellow-300" id="">Udah pernah menang lomba?</h3>
+            <p class="mt-2 text-base sm:text-lg md:text-normal text-gray-300" id="">
+                Tentu sudah dong, BCGRF pernah menang di berbagi event, baik linkup kota, provinsi, bahkan pernah menang tingkat nasional.
+            </p>
+        </div>
+        <div class="w-full px-6 py-6 mx-auto mt-10 border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 bg-black" id="">
+            <h3 class="text-lg font-bold sm:text-xl md:text-2xl text-yellow-300" id="">Bagaimana sih cara ikut produksi?
+            </h3>
+            <p class="mt-2 text-base sm:text-lg md:text-normal text-gray-300" id="">
+                Mudah sekali, cukup aktif dan memperhatikan semua info di grup lalu nanti ada open crew, kalian cukup isi list di sana.
+            </p>
+        </div>
+    </div>
+</section>
+            <footer class="bg-black">
+    <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8 bg-black">
+        <div class="flex justify-center mt-8 space-x-6" id="">
+            <a href="https://www.instagram.com/broadcastgrafika/" class="text-gray-400 hover:text-gray-500">
+                <i class="fab fa-instagram fa-lg fa-fw"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCDXEtXsPfh-wSppIuXsPSZQ" class="text-gray-400 hover:text-gray-500">
+                <i class="fab fa-youtube fa-lg fa-fw"></i>
+            </a>
+        </div>
+        <p class="mt-8 text-base leading-6 text-center text-gray-400">
+            © 2021 Broadcast Grafika. All rights reserved.
+        </p>
+    </div>
+</footer>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
+</body>
+</html>
