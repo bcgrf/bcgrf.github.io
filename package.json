@@ -4,7 +4,7 @@
   "description": "Adalah sebuah prototipe web dari **[BCGRF](https://instagram.com/broadcastgrafika)** yang akan di launcing jika mendapat subdomain dari [SMKN 4 Malang](https://smkn4malang.sch.id) _(doain🙏️)_.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tailwindcss build ./src/css/style.css -o ./public/css/tailwindcss.css"
   },
   "repository": {
     "type": "git",
