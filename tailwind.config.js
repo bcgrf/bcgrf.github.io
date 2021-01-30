@@ -5,7 +5,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'bdpv': "url('/public/img/default.png')"
+      })
+    },
   },
   variants: {
     extend: {},
